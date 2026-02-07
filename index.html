@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniobong Jones - Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <div class="nav-container">
+          <a href="#" class="logo">Iniobong Jones<span>.</span></a>
+          <ul class="nav-menu" id="navMenu">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#resume" class="nav-link">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <div class="menu-toggle" id="menuToggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-bg-shapes">
+        <span class="shape shape-1"></span>
+        <span class="shape shape-2"></span>
+        <span class="shape shape-3"></span>
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <p class="hero-subtitle"><span class="wave">👋</span> Hello, I'm</p>
+          <h1 class="hero-title">
+            <span class="hero-title-line">Iniobong Jones</span>
+          </h1>
+          <p class="hero-text">
+            Software Engineer building mobile & web experiences — React Native,
+            Flutter, React & more
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Contact Me</a>
+            <a href="#portfolio" class="btn btn-outline">View Portfolio</a>
+            <a
+              href="https://cvdesignr.com/p/67c4d6b01c8fc?hl=en_GB"
+              class="btn btn-cv"
+              target="_blank"
+              rel="noopener"
+              >View CV</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="social-links">
+        <a
+          href="https://x.com/jonesini_luis"
+          class="social-link"
+          target="_blank"
+          rel="noopener"
+          aria-label="X"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/ini-jones-ekpoiba/"
+          class="social-link"
+          target="_blank"
+          rel="noopener"
+          aria-label="LinkedIn"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <a
+          href="https://github.com/inijones"
+          class="social-link"
+          target="_blank"
+          rel="noopener"
+          aria-label="GitHub"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+    </section>
+    <!-- 
+    <section class="section articles" id="articles">
+        <div class="container">
+            <div class="section-title fade-in">
+                <p class="section-subtitle">What I Know</p>
+                <h2 class="section-heading">Articles</h2>
+            </div>
+            <div class="skills-container fade-in">
+                <div class="section-title fade-in">
+                 <p class="section-subtitle">Coming soon</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-title fade-in">
+          <p class="section-subtitle">Get To Know</p>
+          <h2 class="section-heading">About Me</h2>
+        </div>
+        <div class="about-container fade-in">
+          <div class="about-image">
+            <div class="about-img-wrap">
+              <img
+                id="about-img"
+                src="assets/face1.jpeg"
+                alt="Iniobong Jones"
+                class="about-img"
+              />
+            </div>
+          </div>
+          <div class="about-content">
+            <h3>Software Engineer — Mobile & Web</h3>
+            <p class="about-text">
+              I'm Iniobong Jones, a software engineer focused on building clean,
+              user-centered apps. I've contributed to products like Cardify,
+              Load.ng, Dabible, Sheltera, and Farmsmarter.
+            </p>
+            <p class="about-text">
+              I am a Mobile and Full-Stack Developer with a keen eye for UI/UX
+              detail, clean code practices, and a never-quit mindset. Skilled in
+              cross-platform mobile development, frontend and backend
+              engineering, REST APIs, and building pixel-perfect, responsive
+              interfaces for mobile and web.
+            </p>
+            <div class="about-info">
+              <div class="info-item">
+                <span class="info-label">Name:</span>
+                <span class="info-value">Iniobong Jones</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Email:</span>
+                <span class="info-value">jonesinim@gmail.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="section resume" id="resume">
+      <div class="container">
+        <div class="section-title fade-in resume-section-header">
+          <p class="section-subtitle">My Story</p>
+          <h2 class="section-heading">Resume</h2>
+          <a
+            href="https://cvdesignr.com/p/67c4d6b01c8fc?hl=en_GB"
+            class="resume-cv-link"
+            target="_blank"
+            rel="noopener"
+            ><i class="fas fa-external-link-alt"></i> View full CV online</a
+          >
+        </div>
+        <div class="resume-container fade-in">
+          <div class="resume-column">
+            <h3 class="resume-heading">Experience</h3>
+            <div class="resume-item">
+              <p class="resume-date">Sep 2025 – Present</p>
+              <h4 class="resume-title">Senior Software Developer</h4>
+              <p class="resume-place">Farmsmarter, Lagos, Nigeria</p>
+              <p class="resume-text">
+                Building and maintaining the FarmSmarter farmer app, vendor app,
+                and marketplace with React Native and Laravel. Core features
+                include auth, vendor onboarding, product listings, orders,
+                notifications, and climate-smart AI-powered features.
+              </p>
+            </div>
+            <div class="resume-item">
+              <p class="resume-date">Jul 2025 – Jan 2026</p>
+              <h4 class="resume-title">
+                Full Stack & Mobile Developer / Tutor
+              </h4>
+              <p class="resume-place">Cirvee Tech Academy, Ibadan</p>
+              <p class="resume-text">
+                Led full-stack development training for 100+ students (HTML,
+                CSS, JavaScript, MongoDB, MySQL). Designed project-based modules
+                and sample apps for CI/CD, improving placement rates.
+              </p>
+            </div>
+            <div class="resume-item">
+              <p class="resume-date">Feb 2024 – Jun 2025</p>
+              <h4 class="resume-title">Software Developer</h4>
+              <p class="resume-place">Arebak, Ohio, USA</p>
+              <p class="resume-text">
+                Built Sheltera (Vegetation Management) app with 30+ US
+                Government Licensed companies. Led DaBible Audio App development
+                (80,000+ active users). Laravel APIs, admin dashboards, and
+                integrations (MapBox, Google Maps, Sygic).
+              </p>
+            </div>
+            <div class="resume-item">
+              <p class="resume-date">Jun 2023 – Mar 2024</p>
+              <h4 class="resume-title">Mobile / Full Stack Developer</h4>
+              <p class="resume-place">Zeeh Africa, Ibadan</p>
+              <p class="resume-text">
+                Led Full-Stack UX revamp (Landing Page & Admin Dashboard).
+                Shipped UseZeeh on iOS and Android (2000+ downloads, 4.5/5
+                reviews). Led a team of 5 developers.
+              </p>
+            </div>
+            <div class="resume-item">
+              <p class="resume-date">Nov 2022 – Jun 2023</p>
+              <h4 class="resume-title">
+                Frontend / Mobile Application Developer
+              </h4>
+              <p class="resume-place">Cardify, Ibadan</p>
+              <p class="resume-text">
+                Launched MVP on Play Store and App Store with 40,000+ users and
+                3,000+ daily engagements. Flutter, RESTful services, Riverpod,
+                MVVM, Hive. Custom navigation and error-handling across the
+                codebase.
+              </p>
+            </div>
+            <div class="resume-item">
+              <p class="resume-date">Jan 2022 – Dec 2022</p>
+              <h4 class="resume-title">Mobile Application Developer</h4>
+              <p class="resume-place">Sendme Food Limited (YC W'22), Ibadan</p>
+              <p class="resume-text">
+                Built and scaled 4 apps for logistics and supply chain (5,000
+                customers, 30 staff riders). Flutter, CLEAN architecture, MVVM,
+                BloC, Riverpod. Third-party APIs and app lifecycle improvements.
+              </p>
+            </div>
+          </div>
+          <div class="resume-column resume-column-education">
+            <h3 class="resume-heading">Education</h3>
+            <div class="resume-item">
+              <p class="resume-date">Feb 2016 – Jan 2022</p>
+              <h4 class="resume-title">B.Sc. Industrial Engineering</h4>
+              <p class="resume-place">University of Ibadan, Ibadan</p>
+              <p class="resume-text">
+                Second Class Upper (2.1). Graduated with a degree in Industrial
+                Engineering.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-title fade-in">
+          <p class="section-subtitle">What I Know</p>
+          <h2 class="section-heading">My Skills</h2>
+        </div>
+        <div class="skills-container fade-in">
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">React Native</span>
+              <span class="skill-percent">95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="95"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">JavaScript</span>
+              <span class="skill-percent">95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="95"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">Laravel (Backend)</span>
+              <span class="skill-percent">90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="90"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">Node.js (Backend)</span>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="80"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">HTML/CSS</span>
+              <span class="skill-percent">95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="95"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">Dart (Flutter)</span>
+              <span class="skill-percent">90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="90"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">TypeScript</span>
+              <span class="skill-percent">90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="90"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">React</span>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="80"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">Next.js</span>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="80"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">Firebase</span>
+              <span class="skill-percent">90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="90"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-title fade-in">
+          <p class="section-subtitle">My Work</p>
+          <h2 class="section-heading">Portfolio</h2>
+        </div>
+        <div class="portfolio-filters fade-in">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="app">Mobile Apps</button>
+        </div>
+        <div class="portfolio-grid fade-in">
+          <div class="portfolio-item" data-category="web app">
+            <div class="portfolio-img-wrap">
+              <img
+                src="assets/cardify.jpeg"
+                alt="Cardify"
+                class="portfolio-img"
+                onerror="this.src='https://placehold.co/600x400/1a1a2e/eee?text=Cardify'"
+              />
+            </div>
+            <div class="portfolio-overlay">
+              <h4 class="portfolio-title">Cardify</h4>
+              <p class="portfolio-category">Web & Mobile App</p>
+              <div class="portfolio-store-links">
+                <a
+                  href="https://app.cardify.co/"
+                  target="_blank"
+                  rel="noopener"
+                  class="store-link store-link-web"
+                  title="Visit site"
+                  ><i class="fas fa-external-link-alt"></i> Visit</a
+                >
+                <a
+                  href="https://play.google.com/store/apps/details?id=co.savertech.cardify"
+                  target="_blank"
+                  rel="noopener"
+                  class="store-link store-link-android"
+                  title="Get on Google Play"
+                  ><i class="fab fa-google-play"></i> Android</a
+                >
+                <a
+                  href="https://apps.apple.com/us/app/cardify-africa/id6449608887"
+                  target="_blank"
+                  rel="noopener"
+                  class="store-link store-link-ios"
+                  title="Get on App Store"
+                  ><i class="fab fa-apple"></i> iOS</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="app">
+            <div class="portfolio-img-wrap">
+              <img
+                src="assets/loadng.jpeg"
+                alt="Load.ng"
+                class="portfolio-img"
+                onerror="this.src='https://placehold.co/600x400/1a1a2e/eee?text=Load.ng'"
+              />
+            </div>
+            <div class="portfolio-overlay">
+              <h4 class="portfolio-title">Load.ng</h4>
+              <p class="portfolio-category">Mobile App</p>
+              <div class="portfolio-store-links">
+                <a
+                  href="https://app.load.ng/"
+                  target="_blank"
+                  rel="noopener"
+                  class="store-link store-link-web"
+                  title="Visit site"
+                  ><i class="fas fa-external-link-alt"></i> Visit</a
+                >
+                <a
+                  href="https://play.google.com/store/apps/details?id=loadng.com.loadng"
+                  target="_blank"
+                  rel="noopener"
+                  class="store-link store-link-android"
+                  title="Get on Google Play"
+                  ><i class="fab fa-google-play"></i> Android</a
+                >
+                <a
+                  href="https://apps.apple.com/us/app/loadng/id1537865343"
+                  target="_blank"
+                  rel="noopener"
+                  class="store-link store-link-ios"
+                  title="Get on App Store"
+                  ><i class="fab fa-apple"></i> iOS</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="app">
+            <div class="portfolio-img-wrap">
+              <img
+                src="assets/dabible.jpeg"
+                alt="Dabible"
+                class="portfolio-img"
+                onerror="this.src='https://placehold.co/600x400/1a1a2e/eee?text=Dabible'"
+              />
+            </div>
+            <div class="portfolio-overlay">
+              <h4 class="portfolio-title">DaBible</h4>
+              <p class="portfolio-category">Mobile App</p>
+              <div class="portfolio-store-links">
+                <a
+                  href="https://www.dabible.com/"
+                  target="_blank"
+                  rel="noopener"
+                  class="store-link store-link-web"
+                  title="Visit site"
+                  ><i class="fas fa-external-link-alt"></i> Visit</a
+                >
+                <a
+                  href="https://play.google.com/store/apps/details?id=net.yorubabible.audiobible"
+                  target="_blank"
+                  rel="noopener"
+                  class="store-link store-link-android"
+                  title="Get on Google Play"
+                  ><i class="fab fa-google-play"></i> Android</a
+                >
+                <a
+                  href="https://apps.apple.com/us/app/yoruba-audio-bible/id1079050631"
+                  target="_blank"
+                  rel="noopener"
+                  class="store-link store-link-ios"
+                  title="Get on App Store"
+                  ><i class="fab fa-apple"></i> iOS</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="app">
+            <div class="portfolio-img-wrap">
+              <img
+                src="assets/sheltera.png"
+                alt="Sheltera"
+                class="portfolio-img"
+                onerror="this.src='https://placehold.co/600x400/1a1a2e/eee?text=Sheltera'"
+              />
+            </div>
+            <div class="portfolio-overlay">
+              <h4 class="portfolio-title">Sheltera VM</h4>
+              <p class="portfolio-category">Mobile App</p>
+              <div class="portfolio-store-links">
+                <a
+                  href="https://www.sheltera.ai/"
+                  target="_blank"
+                  rel="noopener"
+                  class="store-link store-link-web"
+                  title="Visit site"
+                  ><i class="fas fa-external-link-alt"></i> Visit</a
+                >
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.arebak.sheltera"
+                  target="_blank"
+                  rel="noopener"
+                  class="store-link store-link-android"
+                  title="Get on Google Play"
+                  ><i class="fab fa-google-play"></i> Android</a
+                >
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener"
+                  class="store-link store-link-ios"
+                  title="Get on App Store"
+                  ><i class="fab fa-apple"></i> iOS</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="app">
+            <div class="portfolio-img-wrap">
+              <img
+                src="assets/farmsmarter.jpeg"
+                alt="Farmsmarter"
+                class="portfolio-img"
+                onerror="this.src='https://placehold.co/600x400/1a1a2e/eee?text=Farmsmarter'"
+              />
+            </div>
+            <div class="portfolio-overlay">
+              <h4 class="portfolio-title">Farmsmarter</h4>
+              <p class="portfolio-category">Mobile App</p>
+              <div class="portfolio-store-links">
+                <a
+                  href="https://www.farmsmarter.app/"
+                  target="_blank"
+                  rel="noopener"
+                  class="store-link store-link-web"
+                  title="Visit site"
+                  ><i class="fas fa-external-link-alt"></i> Visit</a
+                >
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.farmsmarter.app"
+                  target="_blank"
+                  rel="noopener"
+                  class="store-link store-link-android"
+                  title="Get on Google Play"
+                  ><i class="fab fa-google-play"></i> Android</a
+                >
+                <a
+                  href="https://apps.apple.com/us/app/farmsmarter/id6670790240"
+                  target="_blank"
+                  rel="noopener"
+                  class="store-link store-link-ios"
+                  title="Get on App Store"
+                  ><i class="fab fa-apple"></i> iOS</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="web">
+            <div class="portfolio-img-wrap">
+              <img
+                src="assets/cirveee.jpeg"
+                alt="Cirvee"
+                class="portfolio-img"
+                onerror="this.src='https://placehold.co/600x400/1a1a2e/eee?text=Cirvee'"
+              />
+            </div>
+            <div class="portfolio-overlay">
+              <h4 class="portfolio-title">Cirvee</h4>
+              <p class="portfolio-category">Web</p>
+              <div class="portfolio-store-links">
+                <a
+                  href="https://cirvee.com/"
+                  target="_blank"
+                  rel="noopener"
+                  class="store-link store-link-web"
+                  title="Visit site"
+                  ><i class="fas fa-external-link-alt"></i> Visit</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="web app">
+            <div class="portfolio-img-wrap">
+              <img
+                src="assets/shiga.jpeg"
+                alt="Shiga"
+                class="portfolio-img"
+                onerror="this.src='https://placehold.co/600x400/1a1a2e/eee?text=Shiga'"
+              />
+            </div>
+            <div class="portfolio-overlay">
+              <h4 class="portfolio-title">PayShiga</h4>
+              <p class="portfolio-category">Web & Mobile App</p>
+              <div class="portfolio-store-links">
+                <a
+                  href="https://payshiga.com/"
+                  target="_blank"
+                  rel="noopener"
+                  class="store-link store-link-web"
+                  title="Visit site"
+                  ><i class="fas fa-external-link-alt"></i> Visit</a
+                >
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.payshiga"
+                  target="_blank"
+                  rel="noopener"
+                  class="store-link store-link-android"
+                  title="Get on Google Play"
+                  ><i class="fab fa-google-play"></i> Android</a
+                >
+                <a
+                  href="https://apps.apple.com/app/id6444189418"
+                  target="_blank"
+                  rel="noopener"
+                  class="store-link store-link-ios"
+                  title="Get on App Store"
+                  ><i class="fab fa-apple"></i> iOS</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-title fade-in">
+          <p class="section-subtitle">Get In Touch</p>
+          <h2 class="section-heading">Contact Me</h2>
+        </div>
+        <div class="contact-container fade-in">
+          <!-- <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group full-width">
+                        <textarea class="form-control" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </div>
+                </form> -->
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <p class="contact-text">Lagos, Nigeria</p>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <p class="contact-text">jonesinim@gmail.com</p>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-phone"></i></div>
+              <p class="contact-text">+234 90 5535 4411</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p class="footer-text">
+          © <span id="current-year"></span> Iniobong Jones. All Rights Reserved.
+        </p>
+        <a
+          href="https://cvdesignr.com/p/67c4d6b01c8fc?hl=en_GB"
+          class="footer-cv-link"
+          target="_blank"
+          rel="noopener"
+          >View my CV</a
+        >
+        <script>
+          document.getElementById("current-year").textContent =
+            new Date().getFullYear();
+        </script>
+        <div class="footer-social">
+          <a
+            href="https://x.com/jonesini_luis"
+            class="footer-social-link"
+            target="_blank"
+            rel="noopener"
+            aria-label="X"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/ini-jones-ekpoiba/"
+            class="footer-social-link"
+            target="_blank"
+            rel="noopener"
+            aria-label="LinkedIn"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a
+            href="https://github.com/inijones"
+            class="footer-social-link"
+            target="_blank"
+            rel="noopener"
+            aria-label="GitHub"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile Menu Toggle
+      const menuToggle = document.getElementById("menuToggle");
+      const navMenu = document.getElementById("navMenu");
+
+      menuToggle.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+        menuToggle.classList.toggle("active");
+        document.body.classList.toggle(
+          "menu-open",
+          navMenu.classList.contains("active")
+        );
+      });
+
+      // Close menu when clicking on a link
+      document.querySelectorAll(".nav-link").forEach((link) => {
+        link.addEventListener("click", () => {
+          navMenu.classList.remove("active");
+          menuToggle.classList.remove("active");
+          document.body.classList.remove("menu-open");
+        });
+      });
+
+      // Navbar scroll effect
+      window.addEventListener("scroll", () => {
+        const navbar = document.getElementById("navbar");
+        if (window.scrollY > 50) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
+        }
+      });
+
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            window.scrollTo({
+              top: target.offsetTop - 70,
+              behavior: "smooth",
+            });
+          }
+        });
+      });
+
+      // Scroll animations
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px",
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+
+            // Animate skill bars when skills section is visible
+            if (entry.target.classList.contains("skills-container")) {
+              const skillBars =
+                entry.target.querySelectorAll(".skill-progress");
+              skillBars.forEach((bar) => {
+                const percent = bar.getAttribute("data-percent");
+                setTimeout(() => {
+                  bar.style.width = percent + "%";
+                }, 200);
+              });
+            }
+          }
+        });
+      }, observerOptions);
+
+      document.querySelectorAll(".fade-in").forEach((el) => {
+        observer.observe(el);
+      });
+
+      // Portfolio filtering
+      const filterBtns = document.querySelectorAll(".filter-btn");
+      const portfolioItems = document.querySelectorAll(".portfolio-item");
+
+      filterBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          // Update active button
+          filterBtns.forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+
+          // Filter portfolio items (support multi-category e.g. "web app")
+          const filter = btn.getAttribute("data-filter");
+          portfolioItems.forEach((item, index) => {
+            const categories = (item.getAttribute("data-category") || "").split(
+              " "
+            );
+            const match = filter === "all" || categories.includes(filter);
+            if (match) {
+              item.style.display = "block";
+              item.style.animation = "none";
+              item.offsetHeight;
+              item.style.animation = `portfolioReveal 0.5s ease ${
+                index * 0.06
+              }s forwards`;
+            } else {
+              item.style.opacity = "0";
+              item.style.transform = "scale(0.8)";
+              setTimeout(() => {
+                item.style.display = "none";
+              }, 300);
+            }
+          });
+        });
+      });
+
+      // Contact form submission
+      // const contactForm = document.getElementById('contactForm');
+      // contactForm.addEventListener('submit', (e) => {
+      //     e.preventDefault();
+
+      //     // Create success message
+      //     const successMsg = document.createElement('div');
+      //     successMsg.style.position = 'fixed';
+      //     successMsg.style.top = '50%';
+      //     successMsg.style.left = '50%';
+      //     successMsg.style.transform = 'translate(-50%, -50%)';
+      //     successMsg.style.background = '#2ecc71';
+      //     successMsg.style.color = 'white';
+      //     successMsg.style.padding = '20px 40px';
+      //     successMsg.style.borderRadius = '5px';
+      //     successMsg.style.boxShadow = '0 5px 15px rgba(0,0,0,0.2)';
+      //     successMsg.style.zIndex = '9999';
+      //     successMsg.textContent = 'Your message has been sent successfully!';
+
+      //     document.body.appendChild(successMsg);
+
+      //     // Reset form
+      //     contactForm.reset();
+
+      //     // Remove success message after 3 seconds
+      //     setTimeout(() => {
+      //         successMsg.style.opacity = '0';
+      //         successMsg.style.transition = 'opacity 0.5s ease';
+      //         setTimeout(() => {
+      //             document.body.removeChild(successMsg);
+      //         }, 500);
+      //     }, 3000);
+      // });
+
+      // Add transition styles to portfolio items
+      portfolioItems.forEach((item) => {
+        item.style.transition = "opacity 0.3s ease, transform 0.3s ease";
+      });
+    </script>
+  </body>
+</html>
